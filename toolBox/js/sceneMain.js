@@ -8,7 +8,12 @@ class SceneMain extends Phaser.Scene {
     }
     create() {
         // define oour objects
-        console.log("Ready!");
+        var gridConfig={rows:5, cols:5, scene:this};
+        var alignGrid = new AlignGrid(gridConfig);
+        alignGrid.showNumbers();
+
+        this.face = this.add.sprite(0, 0, "face");
+        alignGrid.placeAtIndex(16, this.face);
     }
     update() {
         //constant running loop
