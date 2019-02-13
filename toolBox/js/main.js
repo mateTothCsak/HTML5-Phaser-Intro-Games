@@ -26,7 +26,7 @@ window.onload = function(){
             width: window.innerWidth,
             height: window.innerHeight,
             parent: 'phaser-game',
-            scene: [SceneMain]
+            scene: [SceneTitle, SceneMain, SceneOver]
         };
     }
 

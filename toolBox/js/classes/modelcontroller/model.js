@@ -1,8 +1,19 @@
 
 
 class Model{
-    contructor(){
+    constructor(){
         this._score = 0;
+        this.soundOn = true;
+        this._musicOn = false;
+    }
+
+    set musicOn(val){
+        this._musicOn=val;
+        emitter.emit(G.MUSIC_CHANGED);
+    }
+
+    get musicOn(){
+        return this._musicOn;
     }
 
     set score(val){

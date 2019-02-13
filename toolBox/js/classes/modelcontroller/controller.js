@@ -1,9 +1,18 @@
 
  class Controller{
     constructor(){
-        console.log(G);
         emitter.on(G.SET_SCORE, this.setScore);
         emitter.on(G.UP_POINTS, this.upPoints);
+        emitter.on(G.TOGGLE_SOUND, this.toggleSound)
+        emitter.on(G.TOGGLE_MUSIC, this.toggleMusic)
+    }
+
+    toggleSound(val){
+        music.soundOn=val;
+    }
+ 
+    toggleMusic(val){
+        model.musicOn=val;
     }
 
     setScore(score){
