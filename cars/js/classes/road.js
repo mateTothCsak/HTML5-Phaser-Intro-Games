@@ -40,7 +40,7 @@ class Road extends Phaser.GameObjects.Container {
         console.log(this);
         this.vSpace=this.displayHeight/10;
         for (var i = 0; i<100; i++){
-            var line = this.scene.add.image(this.x, this.vSpace*i, "line");
+            var line = this.scene.add.image(this.x, this.vSpace*i-20, "line");
             line.originalY = line.y;
             this.lineGroup.add(line);
         }
