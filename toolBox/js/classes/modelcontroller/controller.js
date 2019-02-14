@@ -8,7 +8,7 @@
     }
 
     toggleSound(val){
-        music.soundOn=val;
+        model.soundOn=val;
     }
  
     toggleMusic(val){

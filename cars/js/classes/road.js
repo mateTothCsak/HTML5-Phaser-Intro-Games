@@ -29,6 +29,10 @@ class Road extends Phaser.GameObjects.Container {
 
 
     changeLanes(){
+        if (model.gameOver == true) {
+            return;
+        }
+        emitter.emit(G.PLAY_SOUND, "whoosh");
         if(this.car.x > 0) {
             this.car.x = -this.displayWidth/4;
         } else {
@@ -37,7 +41,6 @@ class Road extends Phaser.GameObjects.Container {
     }
 
     makeLines(){
-        console.log(this);
         this.vSpace=this.displayHeight/10;
         for (var i = 0; i<100; i++){
             var line = this.scene.add.image(this.x, this.vSpace*i-20, "line");
@@ -47,6 +50,9 @@ class Road extends Phaser.GameObjects.Container {
     }
 
     moveLines(){
+        if (model.gameOver == true) {
+            return;
+        }
         this.lineGroup.children.iterate(function(child){
             child.y += this.vSpace/20;
         }.bind(this)); // with bind this the keyword this will refer to the road, not the group
@@ -80,10 +86,22 @@ class Road extends Phaser.GameObjects.Container {
         this.add(this.object)
     }
 
+    goGameOver(){
+        this.scene.start("SceneOver");
+    }
+
     moveObject(){
+        if (model.gameOver == true) {
+            return;
+        }
         this.object.y += this.vSpace / this.object.speed;
         if (Collision.checkCollide(this.car, this.object) == true){
             this.car.alpha= .5;
+            model.gameOver = true;
+            emitter.emit(G.PLAY_SOUND, "boom");
+            this.scene.tweens.add({targets: this.car,duration: 1000, y: game.config.height, angle: -270});
+            this.scene.time.addEvent({ delay: 2000, callback: this.goGameOver, callbackScope: this.scene, loop: false});
+            this.scene.mediaManager.background.stop();
         }
         if (this.object.y > game.config.height){
             emitter.emit(G.UP_POINTS, 1);
