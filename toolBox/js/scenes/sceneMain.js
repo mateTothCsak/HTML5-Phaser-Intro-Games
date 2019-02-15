@@ -17,8 +17,6 @@ class SceneMain extends Phaser.Scene {
 
         var sb = new SoundButtons({scene: this});
 
-        var bar = new Bar({scene: this, x: 240, y: 320});
-        bar.setPercent(.5);
 
     }
 

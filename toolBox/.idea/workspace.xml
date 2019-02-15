@@ -5,19 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffcf1167-5ddd-45b0-a3c4-b5b1d6b3148c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cars/js/scenes/sceneLoad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/classes/comps/bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/audio/boom.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/audio/boom.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/audio/random-race.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/audio/random-race.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/audio/whoosh.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/audio/whoosh.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/bg6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/round1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/round2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/round3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/round4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/round5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/buttons/round6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/icons/music_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/icons/music_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/icons/sfx_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/icons/sfx_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/toggles/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/toggles/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/toggles/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/toggles/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/toggles/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/images/ui/toggles/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/classes/comps/bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/classes/ui/flatButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/classes/ui/soundButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/classes/ui/toggleButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/classes/util/alignGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/classes/util/mediaManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/scenes/sceneMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/scenes/sceneOver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/js/scenes/sceneTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/.idea/basicTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/audio/meow.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/audio/meow.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/images/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/images/ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/js/fontLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/js/phaser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isaac/js/sceneMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/bg6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/round1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/round2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/round3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/round4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/round5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/buttons/round6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/icons/music_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/icons/music_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/icons/sfx_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/icons/sfx_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/toggles/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/toggles/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/toggles/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/toggles/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/toggles/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ui/toggles/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scenes/sceneLoad.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cars/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cars/js/classes/modelcontroller/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/js/classes/modelcontroller/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cars/js/classes/modelcontroller/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/js/classes/modelcontroller/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cars/js/classes/comps/scoreBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/js/classes/comps/scoreBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cars/js/classes/road.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/js/classes/road.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cars/js/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/js/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cars/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cars/js/scenes/sceneLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cars/js/scenes/sceneLoad.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/classes/modelcontroller/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/classes/modelcontroller/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/classes/ui/soundButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/classes/ui/soundButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/classes/ui/toggleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/classes/ui/toggleButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scenes/sceneMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scenes/sceneMain.js" afterDir="false" />
     </list>
@@ -33,10 +103,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/classes/ui/flatButton.js">
+        <entry file="file://$PROJECT_DIR$/js/classes/util/mediaManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -45,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/js/classes/modelcontroller/controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -68,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/scenes/sceneMain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -80,16 +150,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/classes/comps/bar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="270">
               <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
@@ -116,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scenes/sceneLoad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="240">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -157,11 +227,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="753" />
-    <option name="y" value="34" />
-    <option name="width" value="599" />
-    <option name="height" value="764" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="647" />
+    <option name="y" value="-4" />
+    <option name="width" value="703" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,11 +246,6 @@
             <path>
               <item name="toolBox" type="b2602c69:ProjectViewProjectNode" />
               <item name="toolBox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toolBox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toolBox" type="462c0819:PsiDirectoryNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toolBox" type="b2602c69:ProjectViewProjectNode" />
@@ -286,6 +351,8 @@
       <workItem from="1550132086134" duration="3035000" />
       <workItem from="1550149150106" duration="842000" />
       <workItem from="1550150263530" duration="573000" />
+      <workItem from="1550155969156" duration="215000" />
+      <workItem from="1550234289223" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="Developed a grid-system">
       <created>1549988401908</created>
@@ -305,7 +372,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27002000" />
+    <option name="totallyTimeSpent" value="27512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,13 +384,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="753" y="34" width="599" height="764" extended-state="0" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39930555" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21205008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -331,7 +398,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3116279" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34811166" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34728682" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -406,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/classes/util/mediaManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/classes/modelcontroller/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -434,10 +494,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/util/mediaManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/classes/modelcontroller/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -452,6 +519,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classes/comps/bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -471,29 +552,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scenes/sceneLoad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scenes/sceneMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/classes/comps/bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

@@ -94,7 +94,7 @@ class Road extends Phaser.GameObjects.Container {
         if (model.gameOver == true) {
             return;
         }
-        this.object.y += this.vSpace / this.object.speed;
+        this.object.y += (this.vSpace / this.object.speed) * model.speed;
         if (Collision.checkCollide(this.car, this.object) == true){
             this.car.alpha= .5;
             model.gameOver = true;

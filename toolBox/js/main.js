@@ -4,6 +4,7 @@ var model;
 var emitter;
 var G;
 var controller;
+var mediaManager;
 
 window.onload = function(){
     var isMobile = navigator.userAgent.indexOf("Mobile");
