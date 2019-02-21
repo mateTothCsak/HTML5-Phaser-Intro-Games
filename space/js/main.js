@@ -22,10 +22,9 @@ window.onload = function(){
             physics: {
                 default: 'arcade',
                 arcade: {
-                    debug: true
+                    debug: false
                 }
             },
-            backgroundColor: '#0DB34B',
             scene: [SceneLoad, SceneMain, SceneTitle, SceneOver]
         };
     } else {
@@ -37,10 +36,9 @@ window.onload = function(){
             physics: {
                 default: 'arcade',
                 arcade: {
-                    debug: true
+                    debug: false
                 }
             },
-            backgroundColor: '#0DB34B',
             scene: [SceneLoad, SceneMain, SceneTitle, SceneOver]
         };
     }
